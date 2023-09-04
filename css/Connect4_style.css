@@ -1,0 +1,59 @@
+.player-turn{
+    text-align: center;
+}
+
+.container{
+    width: 600px;
+    height: 520px;
+    top: 9rem;
+    margin-left: 150px;
+    background: rgb(87, 168, 255);
+    border: 2px solid black;
+    padding: .5rem;
+    box-shadow: 5px 10px #888888;
+
+}
+
+.container table tr td{
+    width: 90px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.start{
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 320px;
+    text-align: center;
+    padding: 0.3rem;
+    border: 1px solid black;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 6px 5px #888888;
+    display: inline-block;
+}
+
+.start:hover{
+box-shadow: 0px 0px #888888;
+}
+
+.reset{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    text-align: center;
+    padding: 0.3rem;
+    border: 1px solid black;
+    background: #ffffff;
+    cursor: pointer;
+    box-shadow: 6px 5px #888888;
+
+}
+
+.reset:hover{
+box-shadow: 0px 0px #888888;
+}
